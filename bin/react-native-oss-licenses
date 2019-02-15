@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+;(async () => {
+  const rootPath = process.cwd()
+  const licenses = await require('../lib')(rootPath)
+  console.log(JSON.stringify(licenses))
+})()
