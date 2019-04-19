@@ -3,5 +3,5 @@
 ;(async () => {
   const rootPath = process.cwd()
   const licenses = await require('../lib')(rootPath)
-  console.log(JSON.stringify(licenses))
+  console.log(JSON.stringify(licenses)) // eslint-disable-line no-console
 })()
