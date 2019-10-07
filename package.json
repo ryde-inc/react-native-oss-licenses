@@ -1,6 +1,6 @@
 {
   "name": "react-native-oss-licenses",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "A license list generator of all your dependencies for react-native applications",
   "main": "lib/index.js",
